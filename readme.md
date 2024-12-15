@@ -38,7 +38,7 @@ O arquivo `login.ini` deve estar no mesmo caminho do executavel
 ## Estrutura do Projeto
 - **/DB/**: Contém o arquivo do banco de dados (.FDB).
 - **/componente/fastreport/**: Contém o instalador do componente FastReport.
-- **/src/**: Contém os códigos-fonte do projeto.
+
 
 ## Funcionalidades
 1. **Cadastro de Fazendas:**
