@@ -1,0 +1,17 @@
+program ProjDesafio;
+
+uses
+  Vcl.Forms,
+  Upesquisa in 'Upesquisa.pas' {FrmPesquisa},
+  Udm1 in 'Udm1.pas' {DataModule1: TDataModule},
+  Ucadastro in 'Ucadastro.pas' {FrmCadastro};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmPesquisa, FrmPesquisa);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.

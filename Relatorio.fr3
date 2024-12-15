@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="2025.1.3" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="167935" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45640,1567467361" ReportOptions.Description.Text="" ReportOptions.LastChange="45640,2035778125" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="RelDSFazenda" DataSetName="RelDSFazenda"/>
+    <item DataSet="RelDSAnimal" DataSetName="RelDSAnimal"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" HGuides.Text="" VGuides.Text="" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" HGuides.Text="" VGuides.Text="" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="0" MirrorMode="0">
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="18,89765" Left="0" Top="41,57483" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="RelDSFazenda" DataSetName="RelDSFazenda" RowCount="0">
+      <TfrxMemoView Name="MemoRelDSFazendaID" IndexTag="1" AllowVectorExport="True" Left="0" Top="0" Width="30,23624" Height="18,89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="ID" DataSet="RelDSFazenda" DataSetName="RelDSFazenda" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="-16777216" ParentFont="False" Text="[RelDSFazenda.&#34;ID&#34;]"/>
+      <TfrxMemoView Name="MemoRelDSFazendaNOME" IndexTag="1" AllowVectorExport="True" Left="30,23624" Top="0" Width="260,78757" Height="18,89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="NOME" DataSet="RelDSFazenda" DataSetName="RelDSFazenda" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" Frame.Typ="0" Fill.BackColor="-16777216" ParentFont="False" Text="[RelDSFazenda.&#34;NOME&#34;]"/>
+    </TfrxMasterData>
+    <TfrxGroupHeader Name="GroupHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="0" Left="0" Top="18,89765" Width="718,1107" Condition="RelDSFazenda.&#34;ID&#34;"/>
+    <TfrxDetailData Name="DetailData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Frame.Typ="0" Height="18,89765" Left="0" Top="83,14966" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="RelDSAnimal" DataSetName="RelDSAnimal" RowCount="0">
+      <TfrxMemoView Name="MemoRelDSAnimalTAG" IndexTag="1" AllowVectorExport="True" Left="7,55906" Top="0" Width="283,46475" Height="18,89765" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" DataField="TAG" DataSet="RelDSAnimal" DataSetName="RelDSAnimal" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="0" Fill.BackColor="-16777194" ParentFont="False" Text="[RelDSAnimal.&#34;TAG&#34;]"/>
+      <TfrxMemoView Name="Memo1" AllowVectorExport="True" Left="5E-8" Top="-6,94000000000389E-6" Width="7,55905644" Height="18,8976593" ContentScaleOptions.Constraints.MaxIterationValue="0" ContentScaleOptions.Constraints.MinIterationValue="0" Frame.Typ="0" Fill.BackColor="-16777194" Text=""/>
+    </TfrxDetailData>
+  </TfrxReportPage>
+</TfrxReport>
