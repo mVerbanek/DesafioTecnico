@@ -22,6 +22,7 @@ Porta=3050
 
 Certifique-se de ajustar o caminho `Database` para o local onde o arquivo do banco de dados (.FDB) está armazenado.
 O arquivo `login.ini` deve estar no mesmo caminho do executavel
+O acesso para o banco de dados é UserName: `SYSDBA` e senha: `masterkey`
 
 ### Dependências Necessárias
 1. **Biblioteca `fbclient.dll`:** A DLL do cliente Firebird deve estar no mesmo diretório do executável (`.exe`) do projeto.
@@ -46,7 +47,7 @@ O arquivo `login.ini` deve estar no mesmo caminho do executavel
 2. **Cadastro de Animais:**
    - Possibilidade de associar vários animais a uma fazenda.
 3. **Geração de Relatórios:**
-   - Relatórios detalhados sobre fazendas e seus respectivos animais.
+   - Relatório detalhado sobre fazendas e seus respectivos animais.
 
 ## Requisitos de Sistema
 - **Delphi 11** (para compilação do projeto)
