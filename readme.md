@@ -20,8 +20,8 @@ Servidor=LocalHost
 Porta=3050
 ```
 
-Certifique-se de ajustar o caminho `Database` para o local onde o arquivo do banco de dados (.FDB) está armazenado.
-O arquivo `login.ini` deve estar no mesmo caminho do executavel
+Certifique-se de ajustar o caminho `Database` para o local onde o arquivo do banco de dados (.FDB) está armazenado. 
+O arquivo `login.ini` deve estar no mesmo caminho do executavel. 
 O acesso para o banco de dados é UserName: `SYSDBA` e senha: `masterkey`
 
 ### Dependências Necessárias
